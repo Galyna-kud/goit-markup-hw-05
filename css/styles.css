@@ -619,7 +619,7 @@ section {
     background-color: #fcfcfc;
     border-radius: 4px;
     padding: 72px 24px 24px;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open .modal {
@@ -644,12 +644,14 @@ section {
 
 .modal-btn-close {
     fill: currentColor;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: #404bbf;
     border: none;
+    fill: #fff;
 }
 
 .modal-text {
@@ -758,15 +760,15 @@ section {
     align-items: center;
     width: 16px;
     height: 16px;
-    border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
     cursor: pointer;
-    transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: transparent;
     fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input[type='checkbox']:checked + .modal-checkbox-label > .agreement-checkbox {
+.modal-checkbox-inout:checked + .modal-checkbox-label > .agreement-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
