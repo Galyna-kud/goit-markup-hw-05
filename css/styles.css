@@ -759,9 +759,10 @@ section {
     align-items: center;
     width: 16px;
     height: 16px;
-    color: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
+    background-color: transparent;
+    fill: transparent;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -769,12 +770,9 @@ section {
 .modal-checkbox-input:checked + .modal-checkbox-label > .agreement-checkbox {
     background-color: #404bbf;
     border: none;
-    color: #F4F4FD;
+    fill: #f4f4fd;
 }
 
-.agreement-checkbox-icon {
-    fill: currentColor;
-}
 .agreement-link {
     text-decoration: underline;
     color: #4d5ae5;
