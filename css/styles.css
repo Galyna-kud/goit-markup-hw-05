@@ -762,8 +762,8 @@ section {
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     cursor: pointer;
-    color: transparent;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .agreement-checkbox-icon {
     fill: currentColor;
@@ -772,7 +772,7 @@ section {
 .modal-checkbox-inout:checked + .modal-checkbox-label > .agreement-checkbox {
     background-color: #404bbf;
     border: none;
-    color: #F4F4FD;
+    fill: #F4F4FD;
 }
 
 .agreement-link {
