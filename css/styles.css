@@ -557,11 +557,16 @@ section {
         outline: none;
 }
 
+.footer-subscribe-input::placeholder {
+    color: #fff;
+}
+
 .footer-subscribe-btn {
     min-width: 165px;
     height: 40px;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
