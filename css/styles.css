@@ -752,8 +752,7 @@ section {
     color: #8e8f99;
 }
 
-span.agreement-checkbox {
-    display: inline-flex;
+.agreement-checkbox {
     margin-right: 8px;
     justify-content: center;
     align-items: center;
